@@ -8,7 +8,7 @@
 # Withoutbg: https://github.com/withoutbg/withoutbg-python
 # withoutbg integration & refinements: Chester
 #
-# License: GPLv3
+# License: Apache 2.0
 
 import gi
 gi.require_version('Gimp', '3.0')

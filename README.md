@@ -16,7 +16,7 @@ This plugin is a fusion of existing open-source efforts and new developments:
 
 *   **Base Structure & rembg Integration**: ismdevteam [gimp3-rembg-plugin](https://github.com/ismdevteam/gimp3-rembg-plugin)
 *   **Original Concept & Extra Options**: Tech Archive / Guy Vardi [gimp-rembg-plugin](https://github.com/Tech-Archive/gimp-rembg-plugin)
-*   **[withoutbg](https://github.com/withoutbg/withoutbg-python) Integration, Alpha Refinement & GIMP 3 Porting**: Me
+*   **[withoutbg](https://github.com/withoutbg/withoutbg-python) Integration, Alpha Refinement & GIMP 3.2 Porting**: Me
 
 ## Installation
 

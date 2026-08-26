@@ -3,8 +3,9 @@
 #
 # GIMP 3 Plugin: AI Remove Background
 #
-# Base structure & rembg integration: ismdevteam (https://t.me/ismdevteam)
-# Extra options (Mask/Alpha/Square): Tech Archive / Guy Vardi (RemoveBG.py)
+# Base structure & rembg integration: ismdevteam (https://github.com/ismdevteam/gimp3-rembg-plugin)
+# Extra options (Mask/Alpha/Square): Tech Archive / Guy Vardi (https://github.com/Tech-Archive/gimp-rembg-plugin)
+# Withoutbg: https://github.com/withoutbg/withoutbg-python
 # withoutbg integration & refinements: Chester
 #
 # License: GPLv3

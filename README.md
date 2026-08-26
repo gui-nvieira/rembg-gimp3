@@ -22,12 +22,10 @@ This plugin is a fusion of existing open-source efforts and new developments:
 
 ### 1. Plugin Installation
 
-1.  Clone or download this repository.
-2.  Locate your GIMP 3 plug-ins folder. On Linux, it is typically:
+1.  Locate your GIMP 3 plug-ins folder. On Linux, it is typically:
     `~/.config/GIMP/3.0/plug-ins/` (or `3.1`,`3.2`, depending on your version).
-3.  **Important**: GIMP 3 requires plugins to be in a subfolder named exactly after the script file.
-    *   Clone this repository inside plug-ins folder: `git clone https://github.com/gui-nvieira/rembg-gimp3.git`
-4.  Restart GIMP.
+2.  Clone this repository inside plug-ins folder: `git clone https://github.com/gui-nvieira/rembg-gimp3.git`
+3.  Restart GIMP.
 
 ### 2. Installing AI Dependencies
 

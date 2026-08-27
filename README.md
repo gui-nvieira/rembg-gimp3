@@ -42,20 +42,24 @@ print(sys.executable)
 **Install `rembg` and `withoutbg`:**
 Open your terminal and run (replace `/path/to/gimp/python` with the path found above):
 
-*If you have a gpu Nvidia:*
+### **If you have a Nvidia gpu:**
+
+Native GIMP instalation:
 ```bash
 /path/to/gimp/python -m pip install rembg[cli,gpu] withoutbg
 ```
-If using Flatpak(+gpu):
+If using Flatpak:
 ```bash
 flatpak run --share=network --command=bash org.gimp.GIMP
 python3 -m pip install rembg[cli,gpu] withoutbg
 ```
-*Without gpu(cpu only):* 
+### **Without gpu(cpu only):** 
+
+Native GIMP instalation:
 ```bash
 /path/to/gimp/python -m pip install rembg[cli] withoutbg
 ```
-If using Flatpak(cpu only):
+If using Flatpak:
 ```bash
 flatpak run --share=network --command=bash org.gimp.GIMP
 python3 -m pip install rembg[cli] withoutbg
@@ -79,7 +83,7 @@ Right-click on the canvas (or use the top menu) and navigate to:
 *   **Make Square**: Resizes the canvas to a square aspect ratio, centering the content.
 
 **Workflow Tip:**
-For the best results with complex subjects (like hair), select `withoutbg` or `u2net`, enable `Alpha Matting`, and keep `Use as Mask` checked. You can then manually paint on the generated layer mask to fine-tune the result.
+For the best results with complex subjects (like hair), select `withoutbg` or `u2net`, set `Alpha Matting = 50`, and keep `Use as Mask` checked. You can then manually paint on the generated layer mask to fine-tune the result.
 
 ## License
 Apache 2.0

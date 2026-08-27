@@ -48,7 +48,8 @@ Open your terminal and run (replace `/path/to/gimp/python` with the path found a
 ```
 If using Flatpak(+gpu):
 ```bash
-flatpak run --command=pip3 org.gimp.GIMP install rembg[cli,gpu] withoutbg
+flatpak run --share=network --command=bash org.gimp.GIMP
+python3 -m pip install rembg[cli,gpu] withoutbg
 ```
 *Without gpu(cpu only):* 
 ```bash
@@ -56,7 +57,8 @@ flatpak run --command=pip3 org.gimp.GIMP install rembg[cli,gpu] withoutbg
 ```
 If using Flatpak(cpu only):
 ```bash
-flatpak run --command=pip3 org.gimp.GIMP install rembg[cli] withoutbg
+flatpak run --share=network --command=bash org.gimp.GIMP
+python3 -m pip install rembg[cli] withoutbg
 ```
 *Note: The first time you run a model, it will download the weights (~170MB for rembg, ~455MB for withoutbg) from Hugging Face. This happens only once.*
 

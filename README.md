@@ -71,12 +71,12 @@ python3 -m pip install rembg[cli,gpu] withoutbg
 
 Native GIMP instalation:
 ```bash
-/path/to/gimp/python -m pip install rembg[rocm,cli] withoutbg
+/path/to/gimp/python -m pip install onnxruntime-rocm rembg[rocm,cli] withoutbg
 ```
 If using Flatpak:
 ```bash
 flatpak run --share=network --command=bash org.gimp.GIMP
-python3 -m pip install rembg[rocm,cli] withoutbg
+python3 -m pip install onnxruntime-rocm rembg[rocm,cli] withoutbg
 ```
 *Note: The first time you run a model, it will download the weights (~170MB for rembg, ~455MB for withoutbg) from Hugging Face. This happens only once.*
 
